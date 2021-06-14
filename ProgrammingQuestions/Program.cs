@@ -6,7 +6,11 @@ namespace ProgrammingQuestions
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SingleNumber2 singleNumber2 = new SingleNumber2();
+            int singleNumberOutput = singleNumber2.SingleNumber(singleNumber2.InputArray);
+            Console.WriteLine($"singleNumberOutput: {singleNumberOutput}");
+
+            Console.ReadKey();
         }
     }
 }
