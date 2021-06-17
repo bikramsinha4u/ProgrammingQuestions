@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingQuestions", "ProgrammingQuestions\ProgrammingQuestions.csproj", "{72F824D7-6BD7-46B9-85FF-886846FA0D92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgrammingQuestions", "ProgrammingQuestions\ProgrammingQuestions.csproj", "{72F824D7-6BD7-46B9-85FF-886846FA0D92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Searching", "Searching\Searching.csproj", "{A8140B3A-6CD3-42B3-ABDF-500623A1A8A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Searching", "Searching\Searching.csproj", "{A8140B3A-6CD3-42B3-ABDF-500623A1A8A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{5893EE63-C9C9-4411-BF12-60D33588BFE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sorting", "Sorting\Sorting.csproj", "{5893EE63-C9C9-4411-BF12-60D33588BFE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitManipulation", "BitManipulation\BitManipulation.csproj", "{F8CD8789-F1C2-4879-9347-E8367283D4C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5893EE63-C9C9-4411-BF12-60D33588BFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5893EE63-C9C9-4411-BF12-60D33588BFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5893EE63-C9C9-4411-BF12-60D33588BFE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CD8789-F1C2-4879-9347-E8367283D4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CD8789-F1C2-4879-9347-E8367283D4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CD8789-F1C2-4879-9347-E8367283D4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CD8789-F1C2-4879-9347-E8367283D4C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
