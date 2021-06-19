@@ -19,10 +19,19 @@ namespace BitManipulation
             //Add1ToANumber add1ToANumber = new Add1ToANumber();
 
             //MultiplyNumberBy3point5 multiplyNumberBy3Point5 = new MultiplyNumberBy3point5();
-
             //TurnOffRightmostSetBit turnOffRightmostSetBit = new TurnOffRightmostSetBit();
-
-            NumberIsPowerOf4 numberIsPowerOf4 = new NumberIsPowerOf4();
+            //NumberIsPowerOf4 numberIsPowerOf4 = new NumberIsPowerOf4();
+            //ModulusDivisionByPowerOf2 modulusDivisionByPowerOf2 = new ModulusDivisionByPowerOf2();
+            //RotateBitsOfNumber rotateBitsOfNumber = new RotateBitsOfNumber();
+            //CountSetBitsInNumber setBitsInNumber = new CountSetBitsInNumber();
+            //BitFlipInAToBConvertion bitFlipInAToBConvertion = new BitFlipInAToBConvertion();
+            //MultiplyBy7 multiplyBy7 = new MultiplyBy7();
+            //FindRightmostSetBit findRightmostSetBit = new FindRightmostSetBit();
+            //BinaryRepresentationOfNumber binaryRepresentationOfNumber = new BinaryRepresentationOfNumber();
+            //SwapTwoNumbersWithoutTempVar swapTwoNumbersWithoutTempVar = new SwapTwoNumbersWithoutTempVar();
+            //TurnOffParticularBit turnOffParticularBit = new TurnOffParticularBit();
+            //AddTwoBitStrings addTwoBitStrings = new AddTwoBitStrings();
+            FindTwoNumbersAreEqual findTwoNumbersAreEqual = new FindTwoNumbersAreEqual();
 
             Console.ReadKey();
         }
