@@ -6,7 +6,9 @@ namespace InterviewQuestions
     {
         static void Main(string[] args)
         {
-            ReverseStringWordByWord.GetOutput();
+            //ReverseStringWordByWord.GetOutput();
+            //ReverseStringWordByWord.ReverseWords();
+            ReverseStringWordByWord.ReverseWords2();
         }
     }
 }
