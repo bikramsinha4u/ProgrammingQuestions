@@ -9,6 +9,7 @@ namespace ProgrammingQuestions
             var input = new int[] { 1, 4, 34, 35 ,3 ,50 };            
             Find(input);
         }
+
         public static void Find(int[] arr)
         {
             var first = int.MinValue;

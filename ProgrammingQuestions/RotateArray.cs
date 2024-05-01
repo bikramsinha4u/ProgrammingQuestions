@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProgrammingQuestions
 {
@@ -14,6 +10,7 @@ namespace ProgrammingQuestions
             var d = 3;
             Rotate(input, d);
         }
+
         public static void Rotate(int[] arr, int d)
         {
             var size = arr.Length;
@@ -25,7 +22,6 @@ namespace ProgrammingQuestions
                 var temp = arr[i];
                 for (; i < arr.Length - 1; i++)
                 {
-
                     arr[i] = arr[i + 1];
                 }
                 arr[i] = temp;
