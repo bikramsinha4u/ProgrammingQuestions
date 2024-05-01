@@ -7,14 +7,15 @@ namespace ProgrammingQuestions
     {
         public static void Caller()
         {
-            String str = "[()]{}{()()}";
+            var str = "[()]{}{()()}";
             Balanced(str);
         }
-        public static void Balanced(String str)
+        public static void Balanced(string str)
         {
             var stack = new Stack<char>();
             var balanced = true;
             var temp = ' ';
+
             foreach (var item in str)
             {
                 if (item == '{' || item == '[' || item == '(')

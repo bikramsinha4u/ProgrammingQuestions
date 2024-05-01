@@ -6,7 +6,6 @@ namespace ProgrammingQuestions
     {
         public static void Caller()
         {
-
             var input = new int[] { 1, 4, 34, 35 ,3 ,50 };            
             Find(input);
         }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProgrammingQuestions
 {
@@ -10,7 +6,6 @@ namespace ProgrammingQuestions
     {
         public static void Caller()
         {
-
             var input = new int[] { 2000, 1000, 500, 200, 100, 50, 20, 10, 5, 2, 1 };
             var n = 3888;
             Console.WriteLine("Number of each currency required:");

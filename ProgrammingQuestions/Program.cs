@@ -15,7 +15,12 @@ namespace ProgrammingQuestions
             //SecondLargestValue.Caller();
             //NumberOfCurrencyRequired.Caller();
             //LeadersInArray.Caller();
-            MissingNumberInArray.Caller();
+            //MissingNumberInArray.Caller();
+            //LargestSumContiguousSubarray.Caller();
+            //NextGreaterElement.Caller();
+            //CommomElementInThreeArray.Caller();
+            RotateArray.Caller();
+
 
             Console.ReadKey();
         }
