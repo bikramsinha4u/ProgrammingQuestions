@@ -10,16 +10,16 @@ namespace ProgrammingQuestions
             //int singleNumberOutput = singleNumber2.SingleNumber(singleNumber2.InputArray);
             //Console.WriteLine($"singleNumberOutput: {singleNumberOutput}");
 
-            //BalancedBrackets.Caller();
-            //FrequencyOfArrayElements.Caller();
-            //SecondLargestValue.Caller();
-            //NumberOfCurrencyRequired.Caller();
-            //LeadersInArray.Caller();
-            //MissingNumberInArray.Caller();
-            //LargestSumContiguousSubarray.Caller();
-            //NextGreaterElement.Caller();
-            //CommomElementInThreeArray.Caller();
-            //RotateArray.Caller();
+            BalancedBrackets.Caller();
+            FrequencyOfArrayElements.Caller();
+            SecondLargestValue.Caller();
+            NumberOfCurrencyRequired.Caller();
+            LeadersInArray.Caller();
+            MissingNumberInArray.Caller();
+            LargestSumContiguousSubarray.Caller();
+            NextGreaterElement.Caller();
+            CommomElementInThreeArray.Caller();
+            RotateArray.Caller();
             ReverseString.Caller();
 
 

@@ -14,8 +14,6 @@ namespace ProgrammingQuestions
         {
             var stack = new Stack<char>();
             var balanced = true;
-            var temp = ' ';
-
             foreach (var item in str)
             {
                 if (item == '{' || item == '[' || item == '(')
@@ -29,7 +27,7 @@ namespace ProgrammingQuestions
                         balanced = false;
                         break;
                     }
-                    temp = stack.Pop();
+                    char temp = stack.Pop();
                     if (IsMatchingClosingBracket(item, temp))
                         continue;
                     else
